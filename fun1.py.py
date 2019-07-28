@@ -4,12 +4,13 @@
  #   total = total + number
 #print(total)
 
-answer=0
+
 def add_numbers(x,y):
+    answer=0
     for number in range(x,y+1):
         print(number)
-        answer= add_numbers+answer
+        answer= number+answer
     return answer
 
 
-add_numbers(333,777) 
+print (add_numbers(333,777) )
